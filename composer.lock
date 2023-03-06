@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66559480dea8532df6a457e4e313a236",
+    "content-hash": "1bccdaea6a60c6a89354b8acfdcb65b3",
     "packages": [
         {
             "name": "league/flysystem",
@@ -422,6 +422,59 @@
             "time": "2023-02-08T02:24:01+00:00"
         },
         {
+            "name": "topthink/think-captcha",
+            "version": "v3.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-captcha.git",
+                "reference": "52fba122c953995bec3013c635025172491ae299"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/top-think/think-captcha/zipball/52fba122c953995bec3013c635025172491ae299",
+                "reference": "52fba122c953995bec3013c635025172491ae299",
+                "shasum": ""
+            },
+            "require": {
+                "topthink/framework": "^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "think": {
+                    "services": [
+                        "think\\captcha\\CaptchaService"
+                    ],
+                    "config": {
+                        "captcha": "src/config.php"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helper.php"
+                ],
+                "psr-4": {
+                    "think\\captcha\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "yunwuxin",
+                    "email": "448901948@qq.com"
+                }
+            ],
+            "description": "captcha package for thinkphp",
+            "support": {
+                "issues": "https://github.com/top-think/think-captcha/issues",
+                "source": "https://github.com/top-think/think-captcha/tree/v3.0.8"
+            },
+            "time": "2022-10-26T07:59:42+00:00"
+        },
+        {
             "name": "topthink/think-filesystem",
             "version": "v1.0.3",
             "dist": {
@@ -539,6 +592,39 @@
                 "orm"
             ],
             "time": "2023-02-11T10:07:03+00:00"
+        },
+        {
+            "name": "woxiaoyao81/think-image",
+            "version": "v1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.tencent.com/repository/composer/woxiaoyao81/think-image/v1.0.0/woxiaoyao81-think-image-v1.0.0.zip",
+                "reference": "7d103f6d705dad7019a07ebe9ae318ecc636f3d7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*"
+            },
+            "require-dev": {
+                "topthink/framework": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "think\\": "src"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "woxiaoyao",
+                    "email": "1458875913@qq.com"
+                }
+            ],
+            "description": "The ThinkPHP6 Image Package",
+            "time": "2021-12-08T06:23:36+00:00"
         }
     ],
     "packages-dev": [
