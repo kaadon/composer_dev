@@ -5,6 +5,6 @@
 return [
     // 指令定义
     'commands' => [
-        \app\command\testImage::class
+        \app\command\testImages::class
     ],
 ];

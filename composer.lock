@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1bccdaea6a60c6a89354b8acfdcb65b3",
+    "content-hash": "0d0312ab1b53b987c26259a5c9ac9e65",
     "packages": [
+        {
+            "name": "kaadon/graphical",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kaadon/graphical.git",
+                "reference": "5cde7b7f8827009eccb6ef8110e8547ca090163b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kaadon/graphical/zipball/5cde7b7f8827009eccb6ef8110e8547ca090163b",
+                "reference": "5cde7b7f8827009eccb6ef8110e8547ca090163b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kaadon\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "kaadon",
+                    "email": "kaadon.com@gmail.com"
+                }
+            ],
+            "description": "The ThinkPHP6 Image Package",
+            "support": {
+                "issues": "https://github.com/kaadon/graphical/issues",
+                "source": "https://github.com/kaadon/graphical/tree/v0.0.1"
+            },
+            "time": "2023-03-07T08:54:32+00:00"
+        },
         {
             "name": "league/flysystem",
             "version": "1.1.10",
